@@ -13,7 +13,7 @@ and learning from the sample programs without having to focus on path, build, an
 
 You should be able to download the repos as a zip, unzip it on your drive, double click the top level
 .SLN file to open in Visual Studio and do a Build->Batch Build of the entire solution. 
-There are currently 4 warnings, using VS2019 Enterprise Preview (latest updates) with .NET Core 3.1
+There are currently only warnings, using VS2022 Enterprise (latest updates) with .NET Core 6
 
 Alternatively, you could open the Tools->Command Line->Developer PowerShell and issue the cmd:
 
