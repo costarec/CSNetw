@@ -13,7 +13,7 @@ and learning from the sample programs without having to focus on path, build, an
 
 You should be able to download the repos as a zip, unzip it on your drive, double click the top level
 .SLN file to open in Visual Studio and do a Build->Batch Build of the entire solution. 
-There are currently only warnings, using VS2022 Enterprise (latest updates) with .NET Core 6
+There are currently only warnings about target framework netcoreapp2.2 using VS2022 Enterprise (latest updates) with .NET Core 7
 
 Alternatively, you could open the Tools->Command Line->Developer PowerShell and issue the cmd:
 
@@ -21,4 +21,4 @@ msbuild -t:rebuild -p:configuration=debug  (or release)
 
 Previous command builds the 50 csprojects.
 
---chuck costarella, 2020-01-10
+--chuck costarella, 2022-12-21
